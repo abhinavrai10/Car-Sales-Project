@@ -45,3 +45,6 @@ A national car dealership company, "GLobal Auto X," wants to analyze sales perfo
 - **Scope**: Focus on the implementing incremental load.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 ---
+
+## Data Layers
+![Data Layers](docs/DataLayers.drawio.png)
