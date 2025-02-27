@@ -1,0 +1,9 @@
+{
+	"name": "azuredf-car-project",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "81cc348d-1802-48a8-b3eb-c89513bdaf68",
+		"tenantId": "77d4b097-10d6-495a-a957-77213247083c"
+	}
+}

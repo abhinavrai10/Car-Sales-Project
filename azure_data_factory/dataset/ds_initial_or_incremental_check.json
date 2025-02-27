@@ -1,0 +1,71 @@
+{
+	"name": "ds_initial_or_incremental_check",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_azure_sql_database",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Branch_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Dealer_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Model_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Revenue",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "Units_Sold",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "Date_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Day",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Month",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Year",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "BranchName",
+				"type": "varchar"
+			},
+			{
+				"name": "DealerName",
+				"type": "varchar"
+			},
+			{
+				"name": "Product_Name",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "SourceSales"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
